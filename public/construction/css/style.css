@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#background{
+    position: absolute;
+    z-index:0;
+    float:left;
+}
+#explication{
+   font-family: Verdana;
+   text-align: center;
+ font-size: 24pt;
+    position: absolute;
+       left: 800px;
+    top: 500px;
+   z-index:2;
+}
+
+#logo{
+    
+    position: absolute;
+    left: 900px;
+    z-index:0;
+    top:50px;
+}
+
+@media screen and (max-width: 640px) {
+  #background{
+      display:none;
+  }
+  #explication{
+   position: static;
+   font-size: 12pt;
+  }
+  #logo{
+       position: static;
+       width:100%;
+     
+  }
+}

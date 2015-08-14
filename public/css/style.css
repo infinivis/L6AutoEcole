@@ -1,0 +1,27 @@
+.mainButton{
+    vertical-align:middle;
+    
+     //border:3px solid #8AC007;
+     border:2px solid #fff;
+    background-color: #4F57C4;
+    width: 450px;
+    height: 300px;
+    display:inline-block;
+    margin:0;
+    margin:-2px;
+}
+#mainContainer{
+    vertical-align:middle;
+        font-size : 0;
+     //border:3px solid #8AC007;
+    background-color: #81D592;
+    margin: auto;
+    width: 900px;
+    height: 900px;
+   padding:1px 0;
+}
+
+font{
+    color:#F0E5D1;
+}
+
