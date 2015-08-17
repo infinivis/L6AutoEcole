@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 html {
   height: 100%;
 }
@@ -13,7 +14,8 @@ body {
     float:left;
 }
 #explication{
-   font-family: Verdana;
+    color: #4F57C4;
+   font-family: 'Roboto Condensed', sans-serif;
    text-align: center;
  font-size: 24pt;
     position: absolute;
@@ -28,6 +30,23 @@ body {
     left: 900px;
     z-index:0;
     top:50px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+     color: #4F57f4;
+}
+
+a:hover {
+    text-decoration: none;
+     color: #4F57a2;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 640px) {

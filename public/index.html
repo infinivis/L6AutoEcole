@@ -4,26 +4,100 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html class="zoom">
     <head>
         <title>L6 Auto Ecole - Yverdon et environ</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="icon" type="image/png" href="favicon.ico">
+        <link rel="icon" type="image/png" href="favicon.ico">
         <link href="css/style.css" rel="stylesheet"/>
     </head>
     <body>
-        <img src="images/portrait1.jpg" width="100"/>
-        <div id="mainContainer">
-            <div class="mainButton"></div>
-            <div class="mainButton"></div>
-            <div class="mainButton"></div>
-            <div class="mainButton"></div>
-            <div class="mainButton"></div>
-            <div class="mainButton"></div>
-        </div>
-        
-           
+
+
+        <nav data-context="home">
+            <ul data-context="home">
+                <li class="top"><p>Samaritain</p><p class="L">L1</p></li>
+                <li class="top"><p>Théorie</p><p class="L">L2</p></li>
+                <li class="top"><p>Sensi</p><p class="L">L3</p></li>
+                <li class="bottom"><p>Pratique</p><p class="L">L4</p></li>
+                <li class="bottom"><p>Examen</p><p class="L">L5</p></li>
+                <li class="bottom"><p>et nous..</p><p class="L">L6</p></li>
+            </ul>
+
+        </nav>
+        <section id="welcome" data-context="home">
+            <img id="logo" src="images/logo.png"/>
+            <div id="texteLogo">
+                <h1>Auto Ecole à Orbe</h1>
+                <h2>La réussite de votre permis</h2>
+            </div></section>
+
+        <section id="l1">
+            <div class="titre"><h1>Samaritain</h1></div>
+            <div id="moniteur">
+                <h1>Le moniteur</h1>
+                <img src='images/portraitSmall.jpg'/>
+                <span>Le moniteur d'auto-école enseigne à des adolescents ou à des adultes la conduite d'un véhicule à moteur.</span>
+            </div>
+            <div id="infos"><h1>Infos</h1>
+                <span>Cours de 10 heures basé sur 1 x 2 heures le vendredi et 1 x 8 heures le samedi
+                </span>
+                <p>Prix: CHF 200.-</p><a class="infos">plus d'infos</a>
+            </div>
+            <div id="dates">
+                <div><h1>Les dates des prochains cours</h1></div>
+                <ul>
+                    <li>
+
+                        <input type="date" id="date" name="date" list="thesedates">
+
+                        <datalist id="thesedates">
+
+                            <option label="Groundhog Day">2014-02-02</option>
+
+                            <option label="Valentine's Day">2014-02-14</option>
+
+                            <option label="Flag Day">2014-06-14</option>
+
+                        </datalist>
+
+                        <img src="images/pieces/fleche.jpg"/>
+                        <input type="text" name="prenom" maxlength="30" value="" />
+                        <img src="images/pieces/fleche.jpg"/>
+                        <input type="text" name="nom" maxlength="30" value="" />
+                        <img src="images/pieces/fleche.jpg"/>
+                        <input type="text" name="telephone" maxlength="30" value="" />
+                        <img src="images/pieces/fleche.jpg"/>
+                        <input type="submit" name="inscription" value="Inscription" /></li>
+
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section id="l2">
+            <div class="titre"><h1>Théorie</h1></div>
+        </section>
+        <section id="l3">
+            <div class="titre"><h1>Sensibilisation</h1></div>
+        </section>
+        <section id="l4">
+            <div class="titre"><h1>Pratique</h1></div>
+        </section>
+        <section id="l5">
+            <div class="titre"><h1>Examen</h1></div>
+        </section>
+        <section id="l6">
+            <div class="titre"><h1>et nous..</h1></div>
+        </section>
+
+        <footer></footer>
+
+
+
         <script src="js/lib/jquery-2.1.4.js"></script>
         <script src="js/main.js"></script>
     </body>
